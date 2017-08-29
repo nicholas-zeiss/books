@@ -2,7 +2,7 @@
 
 app/server/data/*
 
-app/client/dist/*
+app/dist/*
 
 node_modules/*
 
