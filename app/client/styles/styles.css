@@ -1,0 +1,84 @@
+
+
+body {
+	width: 100vw;
+	height: 100vh;
+
+	margin: 0;
+
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#app {
+
+}
+
+
+	header {
+
+	}
+
+
+		#title {
+			width: 100%;
+
+			background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Hida_City_Library_1F_childrens_books_corner_ac_%281%29.jpg/1280px-Hida_City_Library_1F_childrens_books_corner_ac_%281%29.jpg');
+			background-position: 50% 35%;
+			background-size: 100% auto;
+		}
+
+
+			#title > h1 {
+				padding: 1.5rem 0;
+				margin: 0;
+
+				text-align: center;
+				font-size: 3rem;
+				font-weight: 600;
+
+				color: #ffffff;
+				background-color: transparent;
+			}
+
+
+		#nav {
+			display: flex;
+
+			background-color: #1c43b1;
+		}
+
+
+			#nav > a {
+				padding: .75rem 1.5rem;
+
+				text-decoration: none;
+				font-size: 1.25rem;
+
+				color: #c1bdbd;
+
+				transition: color .25s;
+			}
+
+
+			#nav > a:first-child {
+				margin-left: 5rem;
+			}
+
+
+			#nav > a:hover {
+				color: #f3f3f3;
+			}
+
+
+			#nav > a.active {
+				border-width: 0px;
+				border-bottom-width: 3px;
+				border-color: #c77339;
+				border-style: solid;
+
+				color: #f3f3f3;
+				background-color: #0e2975;
+			}
+

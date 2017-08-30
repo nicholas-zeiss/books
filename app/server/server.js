@@ -7,6 +7,7 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, '../')));
 
+
 app.get('\*', (req, res) => {
 	res.redirect('/');
 });

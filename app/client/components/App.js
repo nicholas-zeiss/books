@@ -20,11 +20,15 @@ class Header extends React.Component {
 		return (
 			<div id="app">
 				<header>
-					<h1>Gloria Koster</h1>
-					<NavLink to='/'>Home</NavLink>
-					<NavLink to='/about'>About Me</NavLink>
-					<NavLink to='/books'>Books</NavLink>
-					<NavLink to='/contact'>ContactMe</NavLink>
+					<div id="title">
+						<h1>Gloria Koster</h1>
+					</div>
+					<div id="nav">
+						<NavLink exact to='/'>Home</NavLink>
+						<NavLink to='/about'>About Me</NavLink>
+						<NavLink to='/books'>Books</NavLink>
+						<NavLink to='/contact'>Contact Me</NavLink>
+					</div>
 				</header>
 				<div id="content">
 		      <Route exact path='/' component={ Home }></Route>
