@@ -1,13 +1,12 @@
 
 
 body {
-	width: 100vw;
-	height: 100vh;
-
 	margin: 0;
 
 	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
+
+	background-color: #f3f3f3;
 }
 
 
@@ -17,16 +16,23 @@ body {
 
 
 	header {
+		position: fixed;
+		top: 0;
 
+		width: 100%;
 	}
 
 
 		#title {
-			width: 100%;
+			position: relative;
 
-			background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Hida_City_Library_1F_childrens_books_corner_ac_%281%29.jpg/1280px-Hida_City_Library_1F_childrens_books_corner_ac_%281%29.jpg');
-			background-position: 50% 35%;
-			background-size: 100% auto;
+			width: 100%;
+			
+			box-shadow: 0 0 3px black;
+
+			background-image: url('http://www.offthelibraryshelf.com/wp-content/uploads/2013/01/20130105-112800-e1358368108764-1024x259.jpg');
+			background-position: 50% 50%;
+			background-size: cover;
 		}
 
 
@@ -35,6 +41,7 @@ body {
 				margin: 0;
 
 				text-align: center;
+				text-shadow: 0 0 10px black;
 				font-size: 3rem;
 				font-weight: 600;
 
@@ -63,7 +70,7 @@ body {
 
 
 			#nav > a:first-child {
-				margin-left: 5rem;
+				margin-left: 2rem;
 			}
 
 
@@ -81,4 +88,124 @@ body {
 				color: #f3f3f3;
 				background-color: #0e2975;
 			}
+
+
+	#content {
+		height: 100%;
+
+		padding: 1rem 2rem;
+		margin-top: 10rem;
+	}
+
+
+		#about {
+			padding: 1rem;
+			border: 1px solid #b0b0b7;
+			border-radius: 2px;
+			box-shadow: 0 0 7px 1px #bfbdbd;
+
+			background-color: #caddff;
+		}
+
+
+			#about > h2 {
+				margin: 0 0 1.5rem;
+
+				text-align: center;
+			}
+
+
+			#about > img {
+				float: left;
+
+				width: 20rem;
+
+				margin: 0 1.5rem 1rem 1rem;
+			}
+
+
+			#about > h3 {
+				margin: 1rem 0 -.5rem;
+			}
+
+
+			#about > p::first-letter {
+				margin-left: 1.5rem;
+			}
+
+
+			#about > p {
+				margin: 1rem 0 1rem;
+
+				line-height: 1.5;
+			}
+
+
+			#about > hr {
+				height: 1px;
+
+				border: none;
+				background-color: black;
+			}
+
+
+		#home {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			padding: 1rem;
+			border: 1px solid #b0b0b7;
+			border-radius: 2px;
+			box-shadow: 0 0 7px 1px #bfbdbd;
+
+			background-color: #caddff;
+		}
+
+
+			#home > h2 {
+				margin: 0;
+
+				text-align: center;
+			}
+
+
+			#home > img {
+				margin: 1rem auto;
+			}
+
+
+			#home > h3 {
+				margin: 1rem 0 -.5rem;
+			}
+
+
+			#home > p::first-letter {
+				margin-left: 1.5rem;
+			}
+
+
+			#home > p {
+				margin: 1rem 0 1rem;
+
+				line-height: 1.5;
+			}
+
+
+			#home > hr {
+				height: 1px;
+
+				border: none;
+				background-color: black;
+			}
+
+
+
+
+
+
+
+
+
+
 
