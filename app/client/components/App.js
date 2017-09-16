@@ -15,8 +15,6 @@ class Header extends React.Component {
 	}
 
 	render() {
-		console.log(this.props.children)
-
 		return (
 			<div id="app">
 				<header>
