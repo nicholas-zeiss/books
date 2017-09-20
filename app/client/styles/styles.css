@@ -1,18 +1,253 @@
 
 
+
+/*********************************
+		
+					Site-wide CSS
+
+**********************************/
+
 body {
 	margin: 0;
 
 	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
 
-	background-color: #f3f3f3;
+	color: #1f1e1e;
+	background-color: #fffab7;
 }
 
 
 #app {
-
+	width: 100vw;
+	height: 100vh;
 }
+
+
+header {
+	width: 100vw;
+	height: 200px;
+
+	padding-bottom: 3rem;
+
+	display: flex;
+	
+	background: linear-gradient(180deg, #fff461 70%, #fffab7);
+}
+
+
+	header > img {
+		z-index: 100;
+		width: 320px;
+		height: 200px;
+	}
+
+
+	#header-right {
+		width: calc(100vw - 320px);
+		height: 200px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+
+		nav {
+			/*position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 57px;*/
+
+			padding-right: 1rem;
+
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+
+			background-color: #2d4bea;
+		}
+
+
+			nav > a {
+				padding: 1rem 1rem calc(1rem - 5px);
+				border-width: 0;
+				border-bottom-width: 5px;
+				border-style: solid;
+				border-color: transparent;
+
+				text-decoration: none;
+				font-size: 1.25rem;
+				font-weight: 600;
+
+				color: #b9b2b2;
+
+				transition: color .25s;
+			}
+
+
+			nav > a.active {
+				color: #f1f1f1;
+				background-color: #1c43b1;
+
+				border-width: 0;
+				border-bottom-width: 5px;
+				border-style: solid;
+				border-color: #ef7a2d;
+			}
+
+
+			nav > a:hover {
+				color: #f1f1f1;
+			}
+
+
+		#header-right > h1 {
+			margin: 0 2rem 0 0;
+
+			font-size: 5rem;
+			font-family: 'Schoolbell', cursive;
+			text-align: right;
+		}
+
+
+		#header-right > h2 {
+			margin: -1rem 2rem 0 0;
+
+			font-style: italic;
+			text-align: right;
+		}
+
+
+#content-container {
+	padding: 0 10rem 1rem;
+}
+
+
+		#content-container > section > h2 {
+			text-align: center;
+		}
+
+
+
+/*********************************
+		
+					Home page CSS
+
+**********************************/
+
+
+#home > h2 {
+	margin: 0;
+
+	text-align: center;
+}
+
+
+#home > img {
+	width: 225px;
+	height: 240px;
+	float: left;
+	margin: 1rem;
+}
+
+
+#home > h3 {
+	margin: 1rem 0 -.5rem;
+}
+
+
+#home > p::first-letter {
+	margin-left: 1.5rem;
+}
+
+
+#home > p {
+	margin: 1rem 0 1rem;
+
+	line-height: 1.5;
+}
+
+
+#home > hr {
+	height: 1px;
+
+	border: none;
+	background-color: black;
+}
+
+
+
+/*********************************
+		
+					Book page CSS
+
+**********************************/
+
+#books {
+	width: 45rem;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	padding: 1rem 0;
+	margin: 0 auto;
+}
+
+
+	.book-container {
+		width: 15rem;
+		height: 20rem;
+
+		margin: .5rem 0 0;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+
+		cursor: pointer;
+	}
+
+
+		.book-container > img {
+			width: 12rem;
+
+			margin: 0 auto;
+
+			transition: all .5s ease-out;
+		}
+
+
+		.book-container:hover > img {
+			width: 12.5rem;
+
+			box-shadow: 0 0 25px 5px #636060;
+		}
+
+
+		.book-container > p {
+			margin: .5rem 0 0;
+
+			text-align: center;
+			font-size: 1.25rem;
+			font-weight: 600;
+
+			color: #403f3f;
+		}
+
+
+	.ruler {
+		width: 40rem;
+		margin: 1rem 0;
+
+		border: .5px solid #cac8c8;
+	}
+
 
 @keyframes modal {
 	0% {
@@ -84,268 +319,4 @@ body {
 
 				line-height: 1.5;
 			}
-
-
-	header {
-		position: fixed;
-		top: 0;
-
-		width: 100%;
-	}
-
-
-		#title {
-			position: relative;
-
-			width: 100%;
-			
-			box-shadow: 0 0 3px black;
-
-			background-image: url('http://www.offthelibraryshelf.com/wp-content/uploads/2013/01/20130105-112800-e1358368108764-1024x259.jpg');
-			background-position: 50% 50%;
-			background-size: cover;
-		}
-
-
-			#title > h1 {
-				padding: .75rem 0;
-				margin: 0;
-
-				text-align: center;
-				text-shadow: 0 0 10px black;
-				font-size: 3rem;
-				font-weight: 600;
-
-				color: #ffffff;
-				background-color: transparent;
-			}
-
-
-		#nav {
-			display: flex;
-
-			background-color: #1c43b1;
-		}
-
-
-			#nav > a {
-				padding: .75rem 1.5rem;
-
-				text-decoration: none;
-				font-size: 1.25rem;
-
-				color: #ccc8c8;
-
-				transition: color .25s;
-			}
-
-
-			#nav > a:first-child {
-				margin-left: 2rem;
-			}
-
-
-			#nav > a:hover {
-				color: #f3f3f3;
-			}
-
-
-			#nav > a.active {
-				border-width: 0px;
-				border-bottom-width: 3px;
-				border-color: #c77339;
-				border-style: solid;
-
-				color: #f3f3f3;
-				background-color: #082b8e;
-			}
-
-
-	#content {
-		height: 100%;
-
-		padding: 3rem 10rem;
-		margin-top: 10rem;
-	}
-
-
-	#content > div > h2 {
-		text-align: center;
-	}
-
-
-		#about {
-			padding: 1rem;
-			border: 1px solid #b0b0b7;
-			border-radius: 2px;
-			box-shadow: 0 0 7px 1px #bfbdbd;
-
-			background-color: #caddff;
-		}
-
-
-			#about > h2 {
-				margin: 0 0 1.5rem;
-
-				text-align: center;
-			}
-
-
-			#about > img {
-				float: left;
-
-				width: 20rem;
-
-				margin: 0 1.5rem 1rem 1rem;
-			}
-
-
-			#about > h3 {
-				margin: 1rem 0 -.5rem;
-			}
-
-
-			#about > p::first-letter {
-				margin-left: 1.5rem;
-			}
-
-
-			#about > p {
-				margin: 1rem 0 1rem;
-
-				line-height: 1.5;
-			}
-
-
-			#about > hr {
-				height: 1px;
-
-				border: none;
-				background-color: black;
-			}
-
-
-		#books {
-			width: 45rem;
-
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			align-items: center;
-			align-content: center;
-
-			padding: 1rem 0;
-			margin: 0 auto;
-		}
-
-
-			.book-container {
-				width: 15rem;
-				height: 20rem;
-
-				margin: .5rem 0 0;
-
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: space-between;
-
-				cursor: pointer;
-			}
-
-
-				.book-container > img {
-					width: 12rem;
-
-					margin: 0 auto;
-
-					transition: all .5s ease-out;
-				}
-
-
-				.book-container:hover > img {
-					width: 12.5rem;
-
-					box-shadow: 0 0 25px 5px #636060;
-				}
-
-
-				.book-container > p {
-					margin: .5rem 0 0;
-
-					text-align: center;
-					font-size: 1.25rem;
-					font-weight: 600;
-
-					color: #403f3f;
-				}
-
-
-			.ruler {
-				width: 40rem;
-				margin: 1rem 0;
-
-				border: .5px solid #cac8c8;
-			}
-
-
-		#home {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-
-			padding: 1rem;
-			border: 1px solid #b0b0b7;
-			border-radius: 2px;
-			box-shadow: 0 0 7px 1px #bfbdbd;
-
-			background-color: #caddff;
-		}
-
-
-			#home > h2 {
-				margin: 0;
-
-				text-align: center;
-			}
-
-
-			#home > img {
-				margin: 1rem auto;
-			}
-
-
-			#home > h3 {
-				margin: 1rem 0 -.5rem;
-			}
-
-
-			#home > p::first-letter {
-				margin-left: 1.5rem;
-			}
-
-
-			#home > p {
-				margin: 1rem 0 1rem;
-
-				line-height: 1.5;
-			}
-
-
-			#home > hr {
-				height: 1px;
-
-				border: none;
-				background-color: black;
-			}
-
-
-
-
-
-
-
-
-
-
 

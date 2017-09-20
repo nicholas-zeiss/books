@@ -5,11 +5,22 @@ const path = require('path');
 
 const app = express();
 
+
+app.get('/', (req, res) => {
+	res.redirect(301, '/home');
+});
+
+
 app.use(express.static(path.join(__dirname, '../')));
 
 
-app.get('\*', (req, res) => {
-	res.redirect('/');
+app.get(/^\/(home|books|reviews|contact)$/, (req, res) => {
+	res.sendFile(path.join(__dirname, '../index.html'));
+});
+
+
+app.get('*', (req, res) => {
+	res.redirect(301, '/home');
 });
 
 
