@@ -14,7 +14,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 
 	color: #1f1e1e;
-	background-color: #fffab7;
+	background-color: #fff461;
 }
 
 
@@ -32,20 +32,22 @@ header {
 
 	display: flex;
 	
-	background: linear-gradient(180deg, #fff461 70%, #fffab7);
+	background: linear-gradient(180deg, #ffaa0f, #fff461);
 }
 
 
 	header > img {
-		z-index: 100;
+		position: absolute;
+		top: 0;
+		left: 0;
 		width: 320px;
-		height: 200px;
+		height: 215px;
 	}
 
 
 	#header-right {
-		width: calc(100vw - 320px);
-		height: 200px;
+		width: 100vw;
+		height: 215px;
 
 		display: flex;
 		flex-direction: column;
@@ -65,8 +67,8 @@ header {
 			display: flex;
 			justify-content: flex-end;
 			align-items: center;
-
-			background-color: #2d4bea;
+			background: linear-gradient(to right, transparent 200px, #2d4bea 500px);
+			/*background-color: #2d4bea;*/
 		}
 
 
