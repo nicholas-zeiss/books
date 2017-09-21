@@ -79,6 +79,8 @@ header {
 
 				color: #b9b2b2;
 
+				cursor: pointer;
+
 				transition: color .25s;
 			}
 
