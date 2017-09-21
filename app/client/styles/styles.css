@@ -56,19 +56,13 @@ header {
 
 
 		nav {
-			/*position: fixed;
-			top: 0;
-			left: 0;
-			right: 0;
-			height: 57px;*/
-
 			padding-right: 1rem;
 
 			display: flex;
 			justify-content: flex-end;
 			align-items: center;
-			background: linear-gradient(to right, transparent 200px, #2d4bea 500px);
-			/*background-color: #2d4bea;*/
+			
+			background: linear-gradient(to right, transparent 320px, #2d4bea 500px);
 		}
 
 
