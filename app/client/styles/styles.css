@@ -14,7 +14,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 
 	color: #1f1e1e;
-	background-color: #fff461;
+	background-color: #fffab7;
 }
 
 
@@ -32,7 +32,7 @@ header {
 
 	display: flex;
 	
-	background: linear-gradient(180deg, #ffaa0f, #fff461);
+	background: linear-gradient(180deg, #ffb52e, #fffab7);
 }
 
 
