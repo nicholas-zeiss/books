@@ -136,22 +136,40 @@ header {
 **********************************/
 
 
-#home > h2 {
+/*#home > h2 {
 	margin: 0;
 
 	text-align: center;
 }
 
+*/
 
-#home > img {
-	width: 225px;
-	height: 240px;
-	float: left;
-	margin: 1rem;
+#home {
+	/*width: 100vw;*/
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 
-#home > h3 {
+#home > .row {
+	display: flex;
+	align-items: center;
+}
+
+
+#home > .row > img {
+	width: 250px;
+	/*height: 240px;*/
+	/*float: left;*/
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.45);
+	margin: 1rem;
+	transform: rotate(0deg);
+}
+
+
+/*#home > h3 {
 	margin: 1rem 0 -.5rem;
 }
 
@@ -174,7 +192,7 @@ header {
 	border: none;
 	background-color: black;
 }
-
+*/
 
 
 /*********************************
