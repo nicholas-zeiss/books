@@ -62,7 +62,7 @@ header {
 			justify-content: flex-end;
 			align-items: center;
 			
-			background: linear-gradient(to right, transparent 320px, #2d4bea 500px);
+			background-color: #2d4bea;
 		}
 
 
@@ -175,6 +175,25 @@ header {
 	background-color: black;
 }
 
+
+
+/*********************************
+		
+					About page CSS
+
+**********************************/
+
+#about > img {
+	float: left;
+	width: 250px;
+
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.45);
+	margin: 0 2rem 2rem 0;
+}
+
+#about > p {
+	font-size: 1.2rem;
+}
 
 
 /*********************************
