@@ -14,7 +14,7 @@ const App = props => {
 	return (
 		<div id='app'>
 			<header>
-				<img src='/client/images/letters.jpg'/>
+				<img src='/client/images/children.png'/>
 				<div id='header-right'>
 					<nav>
 						<NavLink to='/home'>HOME</NavLink>
