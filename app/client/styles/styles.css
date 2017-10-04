@@ -123,9 +123,9 @@ header {
 }
 
 
-		#content-container > section > h2 {
-			text-align: center;
-		}
+	#content-container > section > h2 {
+		text-align: center;
+	}
 
 
 
@@ -136,63 +136,37 @@ header {
 **********************************/
 
 
-/*#home > h2 {
-	margin: 0;
-
-	text-align: center;
-}
-
-*/
-
 #home {
-	/*width: 100vw;*/
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
+	margin-bottom: 5rem;
 }
 
 
-#home > .row {
-	display: flex;
-	align-items: center;
-}
+	#home > img {
+		width: 300px;
+	}
 
 
-#home > .row > img {
-	width: 250px;
-	/*height: 240px;*/
-	/*float: left;*/
-	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.45);
-	margin: 1rem;
-	transform: rotate(0deg);
-}
+	#home img {
+		box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.45);
+		margin: 1.5rem 2rem;
+
+		transform: rotate(0deg);
+	}
 
 
-/*#home > h3 {
-	margin: 1rem 0 -.5rem;
-}
+	#home > .row {
+		display: flex;
+		align-items: center;
+	}
 
 
-#home > p::first-letter {
-	margin-left: 1.5rem;
-}
-
-
-#home > p {
-	margin: 1rem 0 1rem;
-
-	line-height: 1.5;
-}
-
-
-#home > hr {
-	height: 1px;
-
-	border: none;
-	background-color: black;
-}
-*/
+		#home > .row > img {
+			width: 225px;
+		}
 
 
 /*********************************
