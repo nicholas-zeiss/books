@@ -17,7 +17,7 @@ class Books extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<section>
 				<h2>Click a book to learn more!</h2>
 
 				<div id='books'>
@@ -62,7 +62,7 @@ class Books extends React.Component {
 						<p>Lorem Ipsum</p>
 					</div>
 				</div>
-			</div>
+			</section>
 		);
 	}
 }

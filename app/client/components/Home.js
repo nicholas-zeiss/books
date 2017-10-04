@@ -2,23 +2,30 @@
 
 import React from 'react';
 
-class Home extends React.Component {
-	constructor(props) {
-		super(props)
-	}
+// Also - on the homepage I'd like to make my photo be alone at the top and a little larger that the other images. 
+// Then underneath we could have each of the 3 book covers with an associated image under each. The boy goes under
+// Peanut Free, the dog goes under Mitzi, and Ruthie is the little girl.
 
-	render() {
-		return (
-			<div id='home'>
-				<h2>Lorem Ipsum</h2>
-				<img src='https://vignette4.wikia.nocookie.net/seuss/images/d/db/Dr-seuss-cat-in-the-hat-clip-art-free-clipart.jpeg/revision/latest?cb=20170126062846'/>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum risus massa, non facilisis metus dapibus in. Maecenas iaculis semper tincidunt. Donec tincidunt molestie odio.</p>
-				<p>Phasellus et magna at ipsum varius faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Nunc sed imperdiet diam. Duis nec mauris a ex mattis gravida at vel neque.</p>
-				<p>Ut id laoreet nisi. Duis ut convallis tellus, vel efficitur metus.</p>
+const Home = props => {
+	return (
+		<section id='home'>
+			<div className='row'>
+				<img src='client/images/black.jpg' />
+				<img src='client/images/mitzi cover.jpg' />
+				<img src='client/images/peanut cover.jpg' />
 			</div>
-		);
-	}
-}
+			<div className='row'>
+				<img src='client/images/ruthie cover.jpg' />
+				<img src='client/images/peanut.jpg' />
+				<img src='client/images/mitzi.jpg' />
+			</div>
+			<div className='row'>
+				<img src='client/images/ruthie 1.jpg' />
+				<img src='client/images/ruthie 2.jpg' />
+			</div>
+		</section>
+	);
+};
 
 
 export default Home;

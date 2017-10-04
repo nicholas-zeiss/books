@@ -2,26 +2,29 @@
 
 import React from 'react';
 
-class About extends React.Component {
-	constructor(props) {
-		super(props)
-	}
 
-	render() {
-		return (
-			<div id='about'>
-				<h2>Lorem Ipsum</h2>
-				<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ted_Geisel_NYWTS_2_crop.jpg/451px-Ted_Geisel_NYWTS_2_crop.jpg'/>
-				<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum risus massa, non facilisis metus dapibus in. Maecenas iaculis semper tincidunt. Donec tincidunt molestie odio. Phasellus et magna at ipsum varius faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Nunc sed imperdiet diam. Duis nec mauris a ex mattis gravida at vel neque. Ut id laoreet nisi. Duis ut convallis tellus, vel efficitur metus.</p>
-				<p>Donec et tristique nunc. Vestibulum non leo gravida, maximus tellus eu, aliquam magna. Curabitur sed finibus nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ante condimentum, eleifend erat at, tristique elit. Suspendisse non ex ex. Curabitur est mi, vestibulum sit amet est sit amet, vehicula efficitur nisl. Phasellus vitae nunc sodales, dictum dui vel, pulvinar turpis. Phasellus nec fringilla justo.</p>
-				<hr/>
-				<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum risus massa, non facilisis metus dapibus in. Maecenas iaculis semper tincidunt. Donec tincidunt molestie odio. Phasellus et magna at ipsum varius faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Nunc sed imperdiet diam. Duis nec mauris a ex mattis gravida at vel neque. Ut id laoreet nisi. Duis ut convallis tellus, vel efficitur metus.</p>
-				<p>Donec et tristique nunc. Vestibulum non leo gravida, maximus tellus eu, aliquam magna. Curabitur sed finibus nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ante condimentum, eleifend erat at, tristique elit. Suspendisse non ex ex. Curabitur est mi, vestibulum sit amet est sit amet, vehicula efficitur nisl. Phasellus vitae nunc sodales, dictum dui vel, pulvinar turpis. Phasellus nec fringilla justo.</p>
-			</div>
-		);
-	}
+const About = props => {
+	return (
+		<section id='about'>
+			<img src='client/images/blue.jpg' />
+			<p>
+				Greetings! I am Gloria Koster, a children's author and librarian. For many year's I worked full-time at a wonderful elementary school.
+				Now I am lucky enough to be the part-time director of the <a href='http://www.poundridgelibrary.org/'>Pound Ridge Library</a> in my hometown of Pound Ridge, New York. Working part-time
+				provides more opportunity for writing, and that's fantastic! I am working on a humorous picture book and finishing up two picture book
+				biographies. Stay tuned.
+			</p>
+			<p>
+				My husband Eric and I have 3 adult children and a batch of little grandsons. When we're not at home, we're generally heading north to
+				Vermont or into nearby New York City. We also love to travel, especially to France, where I continue to embarrass myself by stumbling
+				over the elegant language. Quel dommage!
+			</p>
+			<p>
+	 			My newest book, LITTLE RED RUTHIE, was published in August of 2017. Like my previous book, MITZI'S MITZVAH, it is a <a href='https://pjlibrary.org/home'>
+	 			PJ Library selection.</a> My first book, THE  PEANUT-FREE CAF&Eacute;, was inspired by all the time I spent in a school lunchroom, watching a lot of fussy eaters
+	 			and the challenges faced by kids with food allergies.
+	 		</p>
+ 		</section>
+	);
 }
 
 
