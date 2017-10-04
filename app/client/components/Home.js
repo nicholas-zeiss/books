@@ -2,6 +2,9 @@
 
 import React from 'react';
 
+// Also - on the homepage I'd like to make my photo be alone at the top and a little larger that the other images. 
+// Then underneath we could have each of the 3 book covers with an associated image under each. The boy goes under
+// Peanut Free, the dog goes under Mitzi, and Ruthie is the little girl.
 
 const Home = props => {
 	return (
