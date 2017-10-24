@@ -2,69 +2,49 @@
 
 import React from 'react';
 
-import Modal from './Modal';
 
-class Books extends React.Component {
-	constructor(props) {
-		super(props)
-		
-		this.state = { modal: false };
-	}
+const Books = props => {
+	return (
+		<section id='books'>
+			<div id='ruthie'>
+				<img src='client/images/ruthie cover.jpg'/>
+				<a href='http://www.albertwhitman.com/book/little-red-ruthie/'>Publisher</a>
+				<p>Summary</p>
+				<p className='review'><i>Reviews</i></p>
+			</div>
 
-	click() {
-		this.setState({ modal: !this.state.modal });
-	}
+			<div id='mitzi'>
+				<img src='client/images/mitzi cover.jpg'/>
+				<a href='http://www.karben.com/Mitzis-Mitzvah-Board-Book_p_646.html'>Publisher</a>
+				<p>
+					A visit to a Nursing Home during the Jewish New Year does not start out well for Mitzi, a little dog. While her family visits with elderly relatives, 
+					Mitzi is tied up outside until a sympathetic nurse invites her in and everyone discovers that Mitzi is the perfect guest. 
+					Her loving kindness brings holiday joy to everyone, young and old. This book is a <a href='http://pjlibrary.org/books/mitzis-mitzvah-koster/if205'>PJ Library Selection</a>.
+				</p>
+				<p className='review'><i>Reviews</i></p>
+			</div>
+			
+			<div id='peanut'>
+				<img src='client/images/peanut cover.jpg'/>
+				<a href=''>Publisher</a>
+				
+				<p>
+					Simon is a picky eater, but peanut butter is one food he adores.  When a child with a peanut allergy arrives at school, it 
+					is Simon who proposes big changes to the lunchroom.  Will he be able to overcome his own fussy ways to help a new friend? 
+				</p>
 
-	render() {
-		return (
-			<section>
-				<h2>Click a book to learn more!</h2>
-
-				<div id='books'>
-					{ !this.state.modal ? null : <Modal close={this.click.bind(this)}/> }
-
-					<div className='book-container' onClick={this.click.bind(this)}>
-						<img src='https://images-na.ssl-images-amazon.com/images/I/51N595qwKOL._SX360_BO1,204,203,200_.jpg'/>
-						<p>Lorem Ipsum</p>
-					</div>
-					<div className='book-container' onClick={this.click.bind(this)}>
-						<img src='https://images-na.ssl-images-amazon.com/images/I/51N595qwKOL._SX360_BO1,204,203,200_.jpg'/>
-						<p>Lorem Ipsum</p>
-					</div>
-					<div className='book-container' onClick={this.click.bind(this)}>
-						<img src='https://images-na.ssl-images-amazon.com/images/I/51N595qwKOL._SX360_BO1,204,203,200_.jpg'/>
-						<p>Lorem Ipsum</p>
-					</div>
-					<div className='ruler'></div>
-					<div className='book-container' onClick={this.click.bind(this)}>
-						<img src='https://images-na.ssl-images-amazon.com/images/I/51N595qwKOL._SX360_BO1,204,203,200_.jpg'/>
-						<p>Lorem Ipsum</p>
-					</div>
-					<div className='book-container' onClick={this.click.bind(this)}>
-						<img src='https://images-na.ssl-images-amazon.com/images/I/51N595qwKOL._SX360_BO1,204,203,200_.jpg'/>
-						<p>Lorem Ipsum</p>
-					</div>
-					<div className='book-container' onClick={this.click.bind(this)}>
-						<img src='https://images-na.ssl-images-amazon.com/images/I/51N595qwKOL._SX360_BO1,204,203,200_.jpg'/>
-						<p>Lorem Ipsum</p>
-					</div>
-					<div className='ruler'></div>
-					<div className='book-container' onClick={this.click.bind(this)}>
-						<img src='https://images-na.ssl-images-amazon.com/images/I/51N595qwKOL._SX360_BO1,204,203,200_.jpg'/>
-						<p>Lorem Ipsum</p>
-					</div>
-					<div className='book-container' onClick={this.click.bind(this)}>
-						<img src='https://images-na.ssl-images-amazon.com/images/I/51N595qwKOL._SX360_BO1,204,203,200_.jpg'/>
-						<p>Lorem Ipsum</p>
-					</div>
-					<div className='book-container' onClick={this.click.bind(this)}>
-						<img src='https://images-na.ssl-images-amazon.com/images/I/51N595qwKOL._SX360_BO1,204,203,200_.jpg'/>
-						<p>Lorem Ipsum</p>
-					</div>
-				</div>
-			</section>
-		);
-	}
+				<p className='review'><i>
+					The story addresses several important topics, all with a lighthearted touch. . .  An informative and colorful selection, 
+					told in a nonthreatening way that kids will relate to. <br/>–Debbie Stewart Hoskins, Grand Rapids Public Library, MI. 
+				</i></p>
+				
+				<p className='review'><i>
+					This story brings the situation home and provides some welcome information for those unfamiliar 
+					with the malady. <br/>-Ilene Cooper, American Library Association.
+				</i></p>
+			</div>
+		</section>
+	);
 }
 
 

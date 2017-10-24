@@ -3,14 +3,26 @@
 import React from 'react';
 
 const Home = props => {
+	let url = location.origin;
+
 	return (
 		<section id='home'>
 			<img src='client/images/black.jpg' />
+			
 			<div className='row'>
-				<img src='client/images/peanut cover.jpg' />
-				<img src='client/images/mitzi cover.jpg' />
-				<img src='client/images/ruthie cover.jpg' />
+				<a href={ origin + '/books#peanut' }>
+					<img src='client/images/peanut cover.jpg' />
+				</a>
+
+				<a href={ origin + '/books#mitzi' }>
+					<img src='client/images/mitzi cover.jpg' />
+				</a>
+
+				<a href={ origin + '/books#ruthie' }>
+					<img src='client/images/ruthie cover.jpg' />
+				</a>
 			</div>
+			
 			<div className='row'>
 				<img src='client/images/peanut.jpg' />
 				<img src='client/images/mitzi.jpg' />
