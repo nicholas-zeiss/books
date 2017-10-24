@@ -14,12 +14,12 @@ const About = props => {
 				biographies. Stay tuned.
 			</p>
 			<p>
-				My husband Eric and I have 3 adult children and a batch of little grandsons. When we're not at home, we're generally heading north to
+				My husband Eric and I have three adult children and a batch of little grandsons. When we're not at home, we're generally heading north to
 				Vermont or into nearby New York City. We also love to travel, especially to France, where I continue to embarrass myself by stumbling
 				over the elegant language. Quel dommage!
 			</p>
 			<p>
-	 			My newest book, LITTLE RED RUTHIE, was published in August of 2017. Like my previous book, MITZI'S MITZVAH, it is a <a href='https://pjlibrary.org/home'>
+	 			My newest book, <strong><i>Little Red Ruthie</i></strong>, was published in August of 2017. Like my previous book, MITZI'S MITZVAH, it is a <a href='https://pjlibrary.org/home'>
 	 			PJ Library selection.</a> My first book, THE  PEANUT-FREE CAF&Eacute;, was inspired by all the time I spent in a school lunchroom, watching a lot of fussy eaters
 	 			and the challenges faced by kids with food allergies.
 	 		</p>
