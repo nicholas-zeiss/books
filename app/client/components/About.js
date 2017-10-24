@@ -19,8 +19,8 @@ const About = props => {
 				over the elegant language. Quel dommage!
 			</p>
 			<p>
-	 			My newest book, <strong><i>Little Red Ruthie</i></strong>, was published in August of 2017. Like my previous book, MITZI'S MITZVAH, it is a <a href='https://pjlibrary.org/home'>
-	 			PJ Library selection.</a> My first book, THE  PEANUT-FREE CAF&Eacute;, was inspired by all the time I spent in a school lunchroom, watching a lot of fussy eaters
+	 			My newest book, <strong><i>Little Red Ruthie</i></strong>, was published in August of 2017. Like my previous book, <strong><i>Mitzi's Mitzvah</i></strong>, it is a <a href='https://pjlibrary.org/home'>
+	 			PJ Library selection.</a> My first book, <strong><i>The Peanut-Free Caf&eacute;</i></strong>, was inspired by all the time I spent in a school lunchroom, watching a lot of fussy eaters
 	 			and the challenges faced by kids with food allergies.
 	 		</p>
  		</section>
