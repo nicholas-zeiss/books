@@ -227,7 +227,7 @@ header {
 
 
 #books > div > .review {
-	clear: left;
+	/*clear: left;*/
 	font-size: 16px;
 	text-align: right;
 }
