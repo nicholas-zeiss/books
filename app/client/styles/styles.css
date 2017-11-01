@@ -182,7 +182,7 @@ header {
 	float: left;
 	width: 250px;
 
-	box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.45);
+	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.45);
 	margin: 0 2rem 2rem 0;
 }
 
@@ -227,7 +227,6 @@ header {
 
 
 #books > div > .review {
-	clear: left;
 	font-size: 16px;
 	text-align: right;
 }
