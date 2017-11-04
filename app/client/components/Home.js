@@ -10,15 +10,15 @@ const Home = props => {
 			<img src='client/images/black.jpg' />
 			
 			<div className='row'>
-				<a href={ origin + '/books#peanut' }>
+				<a href={ url + '/books#peanut' }>
 					<img src='client/images/peanut cover.jpg' />
 				</a>
 
-				<a href={ origin + '/books#mitzi' }>
+				<a href={ url + '/books#mitzi' }>
 					<img src='client/images/mitzi cover.jpg' />
 				</a>
 
-				<a href={ origin + '/books#ruthie' }>
+				<a href={ url + '/books#ruthie' }>
 					<img src='client/images/ruthie cover.jpg' />
 				</a>
 			</div>
