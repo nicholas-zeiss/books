@@ -11,7 +11,7 @@ const Books = props => {
 				<a href='http://www.albertwhitman.com/book/little-red-ruthie/'>Publisher</a>
 				
 				<p>
-					Brave Ruthie has taken cleverness up a notch when compared to Riding Hook, her predecessor. A hungry wolf is no match for this smart little girl, who teaches him about the Hanukkah miracle, while serving him with platefuls of yummy latkes. Of course he’s way too stuffed to eat her!
+					Brave Ruthie has taken cleverness up a notch when compared to Riding Hood, her predecessor. A hungry wolf is no match for this smart little girl, who teaches him about the Hanukkah miracle, while serving him with platefuls of yummy latkes. Of course he’s way too stuffed to eat her!
 				</p>
 				
 				<br/>
