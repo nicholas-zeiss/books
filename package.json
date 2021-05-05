@@ -4,7 +4,7 @@
   "description": "",
   "main": "app/server/server.js",
   "scripts": {
-    "prestart": "webpack --watch &",
+    "prestart": "webpack --optimize-minimize &",
     "start": "nodemon app/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
