@@ -45,7 +45,7 @@ const About = props => {
 	 			My husband Eric and I have three adult children and four grandkids. When we're not at home, we're generally heading north to Vermont or into nearby New York City. We also love to travel, especially to France, where I continue to embarrass myself by stumbling over the elegant language. Quel dommage!
 	 		</p>
 	 		<p>
-	 			My first book, The Peanut-Free Café, was inspired by all the time I spent in a school lunchroom, watching a lot of fussy eaters and the challenges faced by kids with food allergies. My other titles include Little Red Ruthie and Mitzi's Mitzvah. Each of these is a <a target="_blank" href="https://pjlibrary.org/home">PJ Library selection.</a>  And stay tuned for my newest book! Dance the Hora, Isadora! will be published in 2022 by <a target="_blank" href="https://store.behrmanhouse.com/index.php/apples-and-honey-press.html">Apples & Honey Press.</a> 
+	 			My first book, <i>The Peanut-Free Café</i>, was inspired by all the time I spent in a school lunchroom, watching a lot of fussy eaters and the challenges faced by kids with food allergies. My other titles include <i>Little Red Ruthie</i> and <i>Mitzi's Mitzvah</i>. Each of these is a <a target="_blank" href="https://pjlibrary.org/home">PJ Library selection.</a>  And stay tuned for my newest book! <i>Dance the Hora, Isadora!</i> will be published in 2022 by <a target="_blank" href="https://store.behrmanhouse.com/index.php/apples-and-honey-press.html">Apples & Honey Press.</a> 
 	 		</p>
  		</section>
 	);
